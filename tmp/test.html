@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link href="../html/test-section.html" rel="import">
+</head>
+<body>
+<footer id="footer">
+
+</footer>
+<script src="../bower_components/webcomponentsjs/HTMLImports.min.js"></script>
+<script>
+    window.addEventListener('HTMLImportsLoaded', function (e) {
+        console.log('Loaded import: ');
+        document.querySelector('#footer')
+                .appendChild(document.importNode(
+                        document.querySelector('link[rel="import"]').import.querySelector('#test-section').content, true));
+
+    });
+</script>
+</body>
+</html>

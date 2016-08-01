@@ -14,6 +14,8 @@
       <link href="css/review.css" rel="stylesheet">
       <link href="css/contact.css" rel="stylesheet">
       <link href="css/footer.css" rel="stylesheet">
+
+      <link href="html/footer.html" rel="import">
     <title>KarpenkoArtProdaction</title>
 
     <!-- Bootstrap -->
@@ -690,13 +692,6 @@
          </div>
     </section>
     <footer>
-        <div class="container-fluid">
-        <div class="row bar_below_contacts">
-          <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <p>Розробка сайту: <span>Mango-team</span></p>
-          </div>
-        </div> 
-        </div>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -705,5 +700,16 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         
     <script src="https://apis.google.com/js/platform.js"></script>
+  <script src="bower_components/webcomponentsjs/HTMLImports.min.js"></script>
+ <script>
+     window.addEventListener('HTMLImportsLoaded', function (e) {
+         console.log('Loaded import: ');
+         document.querySelector('footer')
+                 .appendChild(document.importNode(
+                         document.querySelector('link[rel="import"]').import.querySelector('#tmpl-footer').content, true));
+
+     });
+
+ </script>
   </body>
 </html>
