@@ -1,0 +1,36 @@
+/*================================Contact=====================*/
+
+.contact .bar_above_contacts {
+    background: #fafaef;
+    height: 40px;
+}
+
+.contact .block_contacts {
+    background: #e4e1eb;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact .block_contacts h2 {
+    line-height: 30px;
+    font-size: 30px;
+    padding-top: 110px;
+    padding-bottom: 35px;
+}
+
+.contact .block_contacts p{
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.contact .block_contacts .email {
+    padding: 35px 0px;
+}
+
+.contact .block_contacts_icons {
+    padding-bottom: 128px;
+}
+
+.contact .icons {
+    margin: auto;
+}

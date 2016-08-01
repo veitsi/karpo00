@@ -1,0 +1,19 @@
+
+footer .bar_below_contacts {
+    /*background: #fafaef;*/
+}
+
+footer .bar_below_contacts p {
+    color: #928ba2;
+    padding: 30px 0;
+    font-size: 20px;
+    margin: 0;
+}
+
+footer .bar_below_contacts span {
+    color: #928ba2/*#333333*/;
+}
+
+footer .icon{
+    margin: auto;
+}

@@ -1,0 +1,125 @@
+/*=========================Price============================*/
+
+.price{
+    font-family: 'Andika', sans-serif;
+    font-size: 12pt;
+    background: #eeeff0;
+}
+
+.serv{
+    width:25%;
+}
+.card-wrap{
+    padding: 0 30px;
+}
+.card{
+    float: left;
+    width: 350px;
+    height: 500px;
+    background: #fff;
+    margin-right:15px;
+    position: relative;
+
+}
+.card:last-of-type{
+    margin-right:0;
+}
+.card .card-head{
+    height: 120px;
+
+}
+.card-body ul{
+    padding-left: 37px;
+    padding-right: 0;
+}
+.card .card-head h2{
+    margin: 0;
+    line-height: 60px;
+}
+.tab-links{
+    padding-right: 0;
+}
+.btn{
+    text-align: center;
+}
+ul{
+    text-align: left
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.green{
+    background: #4cae4c;
+}
+.orange{
+    background: #ec971f;
+}
+.red{
+    background: #d43f3a;
+}
+.card-footer .btn{
+    display: block;
+    min-height: 40px;
+    text-align: center;
+    background: #8fb9ce;
+    color: white;
+}
+.card-footer{
+    bottom:0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+@media (max-width: 1024px) {
+    .card {
+        float: left;
+        width: 280px;
+        height: 500px;
+        background: #fff;
+        margin-right: 10px;
+        position: relative;
+    }
+    .card .card-head h2{
+        margin: 0;
+        line-height: 65px;
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 768px) {
+    .card {
+        float: left;
+        width: 200px;
+        height: 500px;
+        background: #fff;
+        margin-right: 10px;
+        position: relative;
+    }
+    .card .card-head h2{
+        margin: 0;
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 425px) {
+    .card {
+        float: left;
+        width: 250px;
+        height: 500px;
+        background: #fff;
+        margin-top: 10px;
+        margin-left: 30px;
+        position: relative;
+
+    }
+    .card .card-head h2{
+        margin: 0;
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+}

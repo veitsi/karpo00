@@ -1,0 +1,21 @@
+/*=====================HEADER=============================*/
+
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header>a{
+    border: 1px solid white;
+    padding: 10px 40px;
+}
+
+img{
+    width: 100%;
+}
+
+@media(max-width: 991px){
+    .tel{display: none;}
+}

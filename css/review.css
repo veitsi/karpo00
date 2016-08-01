@@ -1,0 +1,75 @@
+
+/*========================Reviews=========================*/
+
+
+.review .container_complains {
+    background: #fefeec;
+
+}
+
+.review .block_complains{
+    padding: 20px 0;
+}
+
+.review .block_arrow_left, .block_arrow_right {
+    height: 820px;
+    background-color: #928ba2;
+}
+
+.review .block_arrow a{
+
+}
+
+.review .block_arrow_left a span {
+    font-size: 102px;
+    color: white;
+    margin-top: 240px;
+    margin-left: 45%;
+}
+
+.review .block_complains h2{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 24px;
+    color: #928ba2;
+}
+
+.review .block_arrow_right a span{
+    font-size: 102px;
+    color: white;
+    margin-top: 240px;
+    margin-left: 20%;
+}
+
+.review .img{
+    margin: auto;
+    text-align: center;
+}
+
+.review .img span{
+    transform: rotate(45deg);
+}
+
+.review .block_complains img{
+    margin: auto;
+}
+
+.icon{
+    font-size: 34px;
+    color: #928ba2;
+    margin: 20px;
+}
+
+.review .complain_photo{
+    width: 200px;
+    height: 200px;
+}
+
+.review .block_complains p{
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+}
+.review .block_arrow {
+    background: #e8e8d9;
+}
