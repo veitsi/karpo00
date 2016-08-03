@@ -1,5 +1,5 @@
 /*=====================HEADER=============================*/
-
+@import url(https://fonts.googleapis.com/css?family=Play);
 
 header{
     width: 100%;
@@ -7,13 +7,34 @@ header{
     z-index: 1;
 }
 
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form{
+    background-color: #e6e2e7;
+    border: none;
+}
+
 header>a{
     border: 1px solid white;
     padding: 10px 40px;
 }
 
+.navbar-inverse .navbar-nav>li>a{
+    color: #333333;
+}
+
+header li{
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    color: #333333;
+}
+
 img{
     width: 100%;
+}
+
+.tel{
+    font-size: 24px;
+    font-family: 'Play', sans-serif;
+    color: #8f84aa;
 }
 
 @media(max-width: 991px){
