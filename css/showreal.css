@@ -38,9 +38,6 @@
 }
 
 .showreal h1 {
-    position: absolute;
-    top: 40%;
-    width: 100%;
     font-size: 21px;
     letter-spacing: 3px;
     color: #fff;
