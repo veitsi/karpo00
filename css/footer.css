@@ -1,6 +1,6 @@
 
 footer .bar_below_contacts {
-    /*background: #fafaef;*/
+    background: #fafaef;
 }
 
 footer .bar_below_contacts p {
@@ -11,7 +11,7 @@ footer .bar_below_contacts p {
 }
 
 footer .bar_below_contacts span {
-    color: #928ba2/*#333333*/;
+    color: #333333;
 }
 
 footer .icon{
