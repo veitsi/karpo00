@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap -->
 
@@ -82,6 +83,15 @@
         insertSection('contact',5);
         insertSection('footer',6);
 
+    });
+    $(document).on('show.bs.modal', '.modal', function(){
+        var data = $(this).data('src');
+        $(this).find('iframe').attr('src', data);
+    });
+    $(document).on('hidden.bs.modal','.modal', function () {
+        var frame = $(this).find('iframe'),
+                attr = frame.attr('src');
+        frame.attr('src', attr);
     });
 
 </script>
