@@ -1,75 +1,84 @@
 
-/*========================Reviews=========================*/
+/*========================review=========================*/
 
 
-.review .container_complains {
-    background: #fefeec;
+.review .container_review {
+    background-color: #fefeec;
+    max-width: 1260px;
+    text-align: center;
+    /*position: relative; */
+    /*padding: ;*/
+}
+
+.review .row {
+    background: #edf0f1;
+} 
+
+.review .block_review_center {
+    background-color: #fefeec;
+    padding: 52px 68px 352px 68px;
 
 }
 
-.review .block_complains{
-    padding: 20px 0;
+
+.review .block_arrow_left, .block_arrow_right, {
+/*    margin-bottom: -99999px;
+    padding-bottom: 99999px;*/
+    background-color: #edf0f1;
 }
 
-.review .block_arrow_left, .block_arrow_right {
-    height: 820px;
-    background-color: #928ba2;
-}
-
-.review .block_arrow a{
+.block_review_center {
 
 }
 
-.review .block_arrow_left a span {
-    font-size: 102px;
-    color: white;
-    margin-top: 240px;
-    margin-left: 45%;
+.review .col-wrap {
+    overflow: hidden; 
 }
 
-.review .block_complains h2{
+
+.review .glyphicon-chevron-left, .glyphicon-chevron-right {
+    font-size: 64px;
+    color: #938f9d;
+    position: absolute;
+    /*top: 295px;*/
+    left: 50%;
+    margin-left: -20px; 
+    margin-top: 295px; /*this did not help((*/
+   
+}
+
+@media (max-width: 991px) {
+   .review .glyphicon-chevron-left, .glyphicon-chevron-right {
+    font-size: 48px;    
+   }
+}
+
+.review h2{
     padding-top: 80px;
     text-align: center;
     font-size: 24px;
     color: #928ba2;
 }
 
-.review .block_arrow_right a span{
-    font-size: 102px;
-    color: white;
-    margin-top: 240px;
-    margin-left: 20%;
-}
 
-.review .img{
-    margin: auto;
-    text-align: center;
-}
-
-.review .img span{
+.review .glyphicon-th-large{   
+    -webkit-transform: rotate(45deg);   
+    -ms-transform: rotate(45deg);   
     transform: rotate(45deg);
-}
-
-.review .block_complains img{
-    margin: auto;
-}
-
-.icon{
-    font-size: 34px;
+    font-size: 14px;
     color: #928ba2;
-    margin: 20px;
+    padding: 32px 0;
 }
 
-.review .complain_photo{
-    width: 200px;
-    height: 200px;
+.review img{
+    margin: auto;
+    max-width: 218px;
+    max-height: 218px;
 }
 
-.review .block_complains p{
+
+.review  p{
     text-align: center;
     font-size: 20px;
     color: #333333;
-}
-.review .block_arrow {
-    background: #e8e8d9;
 }

@@ -123,3 +123,26 @@ h4{
     }
 
 }
+
+/*------------------------------------------VT added code for calculator*/
+
+#edit h2{
+    text-align: left;
+}
+
+#edit label {
+    width: 20%;
+}
+
+#edit #inp_clip_name {
+    width: 70%;
+}
+
+#edit #btn_calculator {
+    width: 420px;
+    height: 80px;
+    background: #928ba2;
+    color: white;
+    text-transfrom: uppercase;
+
+}

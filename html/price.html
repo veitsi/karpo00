@@ -93,6 +93,7 @@
                         </div>
                     </div>
                 </div>
+            
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="promo">
@@ -234,7 +235,7 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="edit">
-                <div class="card-wrap clearfix">
+<!--                 <div class="card-wrap clearfix">
                     <div class="card">
                         <div class="card-head green">
                             <h2 class="serv-head">ПАКЕТ ОПТИМАЛЬНИЙ</h2>
@@ -299,8 +300,64 @@
                             <a href="#" class="btn">ЗАМОВИТИ</a>
                         </div>
                     </div>
+                </div> -->
+                <form action="#">
+                    <div class="container-fluid">
+                        <div class="row"> 
+                            <div class="col-xs-12">
+                                <h2>Калькулятор видеомонтажа</h2>
+                            </div>   
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="inp_clip_name">Назва кліпу:</label>                    
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="text" placeholder="Напр. Юбілей групи ФП-06 10 років" id="inp_clip_name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="inp_slider1">Довжина відзнятих відеоматеріалів, хвилин:</label>                    
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="text" id="inp_slider1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="inp_checkbox">Використайте мою музику:</label>
+                            </div>
+                            <div class="col-xs-6">
+                                <input type="checkbox" id="inp_checkbox">
+                            </div>
+                        </div>                            
+                        <hr>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                ОРІЄНТОВНА ВАРТІСТЬ КЛІПУ:
+                            </div>
+                            <div class="col-xs-6">
+                                3000 грн
+                            </div>                            
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5 col-xs-offset-4">
+                                <button id="btn_calculator">Замовити та долучити матеріали</button>
+                            </div>   
+                        </div>
+                            
+                    </div><!--  end of container  -->
+                </form> 
+
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+  $( function() {
+    $( "#slider" ).slider();
+  } );
+</script>
