@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- VT added for slider -->
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css">
     <!-- Bootstrap -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -95,5 +98,17 @@
     });
 
 </script>
+
+<script>  // VT it makes slider
+  $( function() {
+    $( "#inp_slider1" ).slider();
+    $( "#inp_slider2" ).slider();
+    $( "#inp_slider3" ).slider();
+    $( "#inp_slider4" ).slider();
+
+  } );
+</script>
+
+
 </body>
 </html>

@@ -130,74 +130,9 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="edit_price">
-<!--                 <div class="card-wrap clearfix">
-                    <div class="card">
-                        <div class="card-head green">
-                            <h2 class="serv-head">ПАКЕТ ОПТИМАЛЬНИЙ</h2>
-                            <h4>3000грн</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>10 годин зйомки</li>
-                                <li>1 камера</li>
-                                <li>монтаж кліпу</li>
-                                <li>монтаж фільму</li>
-                                <li>монтаж оригіналу (всіх відзнятих матеріалів)</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn">ЗАМОВИТИ</a>
-                        </div>
-                    </div>
 
-                    <div class="card">
-                        <div class="card-head orange">
-                            <h2 class="serv-head">ПАКЕТ МАЙСТЕРНИЙ</h2>
-                            <h4>9000грн</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>12 годин зйомки</li>
-                                <li>2 камери</li>
-                                <li>монтаж кліпу</li>
-                                <li>монтаж фільму</li>
-                                <li>запис звуку з пульту</li>
-                                <li>вибір локації, виїзд на місце церемонії</li>
-                                <li>Love Story</li>
-                                <li>аерозйомка</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer ">
-                            <a href="#" class="btn">ЗАМОВИТИ</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-head red">
-                            <h2 class="serv-head">ПАКЕТ РОЗКІШНИЙ</h2>
-                            <h4>20 000грн</h4>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>до 15 годин зйомки</li>
-                                <li>2 камери</li>
-                                <li>монтаж кліпу</li>
-                                <li>монтаж фільму</li>
-                                <li>монтаж оригіналу (всіх відзнятих матеріалів)</li>
-                                <li>запис звуку з пульту</li>
-                                <li>вибір локації, виїзд на місце церемонії</li>
-                                <li>Love Story</li>
-                                <li>аерозйомка</li>
-                                <li>монтаж матеріалів за 7 днів</li>
-                            </ul>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#" class="btn">ЗАМОВИТИ</a>
-                        </div>
-                    </div>
-                </div> -->
-                <form action="#">
-                    <div class="container-fluid">
+                 <form action="#">
+                    <div class="container-fluid container-calculator">
                         <div class="row"> 
                             <div class="col-xs-12">
                                 <h2>Калькулятор видеомонтажа</h2>
@@ -205,25 +140,54 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-4">
-                                <label for="inp_clip_name">Назва кліпу:</label>                    
+                                <p>Назва кліпу:</p>                    
                             </div>
                             <div class="col-xs-8">
                                 <input type="text" placeholder="Напр. Юбілей групи ФП-06 10 років" id="inp_clip_name">
                             </div>
                         </div>
+                        
                         <div class="row">
                             <div class="col-xs-4">
-                                <label for="inp_slider1">Довжина відзнятих відеоматеріалів, хвилин:</label>                    
+                                <p>Довжина відзнятих <br> відеоматеріалів, хвилин:</p>                    
                             </div>
-                            <div class="col-xs-6">
-                                <input type="text" id="inp_slider1">
+                            <div class="col-xs-8 col-md-5">
+                                <div class="slider" id="inp_slider1"></div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-xs-4">
-                                <label for="inp_checkbox">Використайте мою музику:</label>
+                                <p>Кількість фотографій <br> для кліпу, штук:</p>                    
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-8 col-md-5">
+                                <div class="slider" id="inp_slider2"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <p>Довжина відзнятих <br> відеоматеріалів, хвилин:</p>                    
+                            </div>
+                            <div class="col-xs-8 col-md-5">
+                                <div class="slider" id="inp_slider3"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <p>Срок виконання <br> замовлення:</p>                    
+                            </div>
+                            <div class="col-xs-8 col-md-5">
+                                <div class="slider" id="inp_slider4"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <p>Використайте мою <br> музику:</p>
+                            </div>
+                            <div class="col-xs-8 col-md-5">
                                 <input type="checkbox" id="inp_checkbox">
                             </div>
                         </div>                            
@@ -232,18 +196,18 @@
                             <div class="col-xs-4">
                                 ОРІЄНТОВНА ВАРТІСТЬ КЛІПУ:
                             </div>
-                            <div class="col-xs-6">
-                                3000 грн
+                            <div class="col-xs-8 col-md-5">
+                                <h1>3000 грн</h1>
                             </div>                            
                         </div>
                         <div class="row">
-                            <div class="col-xs-5 col-xs-offset-4">
+                            <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4">
                                 <button id="btn_calculator">Замовити та долучити матеріали</button>
                             </div>   
                         </div>
                             
                     </div><!--  end of container  -->
-                </form> 
+                </form>  
 
                 </div>
             </div>
@@ -251,8 +215,3 @@
     </div>
 </template>
 
-<script>
-  $( function() {
-    $( "#slider" ).slider();
-  } );
-</script>

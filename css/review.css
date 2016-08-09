@@ -4,10 +4,11 @@
 
 .review .container_review {
     background-color: #fefeec;
-    max-width: 1260px;
+    
+    max-width: 1140px;
     text-align: center;
-    /*position: relative; */
-    /*padding: ;*/
+    padding: 2% 2%;
+
 }
 
 .review .row {
@@ -16,14 +17,12 @@
 
 .review .block_review_center {
     background-color: #fefeec;
-    padding: 52px 68px 352px 68px;
+    padding: 0 10% 10% 10%;
 
 }
 
 
 .review .block_arrow_left, .block_arrow_right, {
-/*    margin-bottom: -99999px;
-    padding-bottom: 99999px;*/
     background-color: #edf0f1;
 }
 
@@ -40,7 +39,6 @@
     font-size: 64px;
     color: #938f9d;
     position: absolute;
-    /*top: 295px;*/
     left: 50%;
     margin-left: -20px; 
     margin-top: 295px; /*this did not help((*/

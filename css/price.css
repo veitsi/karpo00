@@ -4,7 +4,7 @@
 .price{
     font-family: 'Andika', sans-serif;
     font-size: 12pt;
-    background: #eeeff0;
+    /*background: #eeeff0; */
 }
 
 .serv{
@@ -201,24 +201,51 @@ h4{
 }
 
 /*------------------------------------------VT added code for calculator*/
+#edit .container-calculator {
+    background: #e4e1eb;
+    padding-bottom: 50px;
+}
+
+#edit .col-xs-4 {
+    padding-left: 5%;
+}
+
 
 #edit h2{
     text-align: left;
-}
-
-#edit label {
-    width: 20%;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 #edit #inp_clip_name {
-    width: 70%;
+    width: 100%;
+}
+
+#edit #inp_clip_name::-webkit-input-placeholder {
+    padding-left: 10%;
+}
+
+#edit #inp_clip_name::-moz-placeholder {
+    padding-left: 10%;
+}
+
+#edit #inp_clip_name:-ms-input-placeholder {
+    padding-left: 10%;
+}
+
+#edit #inp_clip_name::placeholder {
+    padding-left: 10%;
+}
+
+#edit .slider {
+    margin: 10px 0;
 }
 
 #edit #btn_calculator {
-    width: 420px;
     height: 80px;
     background: #928ba2;
     color: white;
-    text-transfrom: uppercase;
+    text-transform: uppercase;
+    font-size: 16px;
 
 }
