@@ -1,14 +1,12 @@
 /*================================Contact=====================*/
 
-.contact .bar_above_contacts {
-    background: #fafaef;
-    height: 40px;
+.block_contacts {
+    max-width: 1260px;
 }
-
+ 
 .contact .block_contacts {
     background: #e4e1eb;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .contact .block_contacts h2 {
@@ -33,4 +31,6 @@
 
 .contact .icons {
     margin: auto;
+    max-height: 70px;
+    max-width: 70px;
 }

@@ -24,13 +24,24 @@
     margin: 10px;
 }
 
-.showreal h1 {
+.showreal article div{
+    background-color: rgba(222, 223, 172, 0.6);
     position: absolute;
-    top: 60%;
-    width: 100%;
-    font-size: 36px;
+    top: 20%;
+    left: 70%;
+    padding: 20px 20px 30px 20px;
+}
+
+.showreal h1, .showreal p{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.showreal h1 {
+    font-size: 21px;
     letter-spacing: 3px;
     color: #fff;
     font-family: Oswald, sans-serif;
     text-align: center;
+    transform: rotate(-90deg);
 }
