@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Play|PT+Sans+Caption);
 /*=========================Price============================*/
 
 .price{
@@ -15,7 +16,7 @@
 .card{
     float: left;
     width: 350px;
-    height: 500px;
+    height: 550px;
     background: #fff;
     margin-right:15px;
     position: relative;
@@ -25,16 +26,39 @@
     margin-right:0;
 }
 .card .card-head{
-    height: 120px;
-
+    /*height: 120px;*/
+    padding: 20px;
 }
 .card-body ul{
-    padding-left: 37px;
-    padding-right: 0;
+    padding: 20px;
+    
 }
 .card .card-head h2{
     margin: 0;
-    line-height: 60px;
+    /*line-height: 60px;*/
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Play', sans-serif;
+}
+.card .card-head h4{
+    font-size: 24px;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+    font-family: 'Play', sans-serif;
+}
+.price h3{
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+}
+.price span{
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+h1, h2, h3, h4{        
+    text-transform: uppercase;
 }
 .tab-links{
     padding-right: 0;
@@ -43,35 +67,87 @@
     text-align: center;
 }
 ul{
-    text-align: left
+    text-align: left;
+    list-style-type: none;
 }
+ul img{
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.price .card-body li{
+    margin: 0;
+}
+.addBlockOne ul, .addBlockTwo ul{
+    margin-top: 14px;
+    text-align: center;
+}
+.addBlockOne li, .addBlockTwo li{
+    padding-bottom: 10px;
+}
+
 h2{
     text-align: center;
+}
+.addBlock > h3{
+    text-align: center;
+    display: block;
 }
 h4{
     text-align: center;
 }
 .green{
-    background: #4cae4c;
+    background: #7ea97d;
 }
-.orange{
-    background: #ec971f;
+.blue{
+    background: #8d9ebd;
 }
-.red{
-    background: #d43f3a;
+.purple{
+    background: #7d7eab;
+}
+.grey{
+    background: #9b90a4;
 }
 .card-footer .btn{
     display: block;
     min-height: 40px;
     text-align: center;
-    background: #8fb9ce;
     color: white;
+    font-size: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.btn .button{
+    color: #ffffff;
 }
 .card-footer{
     bottom:0;
     right: 0;
     left: 0;
     position: absolute;
+}
+.addBlock{
+    width: 100%;
+}
+.addBlockOne{
+    width: 50%;
+    float: left;
+}
+.addBlockTwo{
+    width: 50%;
+    float: right;
+}
+.promo{
+    width: 100%;
+    height: 120%;
+    word-break: 100%;
+    background-color: #d9d7df;
+    text-align: center;
+}
+.promo p{
+    padding: 10px;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #333333;
 }
 @media (max-width: 1024px) {
     .card {
