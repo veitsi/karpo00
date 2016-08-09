@@ -16,7 +16,7 @@
 .card{
     float: left;
     width: 350px;
-    height: 500px;
+    height: 550px;
     background: #fff;
     margin-right:15px;
     position: relative;
@@ -30,8 +30,8 @@
     padding: 20px;
 }
 .card-body ul{
-    padding-left: 37px;
-    padding-right: 0;
+    padding: 20px;
+    
 }
 .card .card-head h2{
     margin: 0;
@@ -50,6 +50,7 @@
     font-family: 'Play', sans-serif;
     font-size: 20px;
     color: #333;
+    display: inline-block;
 }
 .price span{
     font-family: 'Play', sans-serif;
@@ -66,13 +67,32 @@ h1, h2, h3, h4{
     text-align: center;
 }
 ul{
-    text-align: left
+    text-align: left;
+    list-style-type: none;
 }
+ul img{
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.price .card-body li{
+    margin: 0;
+}
+.addBlockOne ul, .addBlockTwo ul{
+    margin-top: 14px;
+    text-align: center;
+}
+.addBlockOne li, .addBlockTwo li{
+    padding-bottom: 10px;
+}
+
 h2{
     text-align: center;
 }
 .addBlock > h3{
     text-align: center;
+    display: block;
 }
 h4{
     text-align: center;
@@ -93,7 +113,6 @@ h4{
     display: block;
     min-height: 40px;
     text-align: center;
-    background: #8fb9ce;
     color: white;
     font-size: 20px;
     font-family: 'PT Sans Caption', sans-serif;
