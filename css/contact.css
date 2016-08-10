@@ -33,4 +33,5 @@
     margin: auto;
     max-height: 70px;
     max-width: 70px;
+    min-width: 40px;
 }

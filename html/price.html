@@ -171,7 +171,7 @@
                 </div>
             </div>
 
-            <div role="tabpanel" class="tab-pane fade" id="edit_price">
+            <div id="edit_price" role="tabpanel" class="tab-pane fade" >
 
                  <form action="#">
                     <div class="container-fluid container-calculator">
@@ -185,7 +185,7 @@
                                 <p>Назва кліпу:</p>                    
                             </div>
                             <div class="col-xs-8">
-                                <input type="text" placeholder="Напр. Юбілей групи ФП-06 10 років" id="inp_clip_name">
+                                <input type="text" id="inp_clip_name"placeholder="Напр. Юбілей групи ФП-06 10 років" >
                             </div>
                         </div>
                         
@@ -194,7 +194,12 @@
                                 <p>Довжина відзнятих <br> відеоматеріалів, хвилин:</p>                    
                             </div>
                             <div class="col-xs-8 col-md-5">
-                                <div class="slider" id="inp_slider1"></div>
+                                <div class="slider" id="slider1"></div>
+                                <div class="slider_labels">
+                                    <span class="slider_label_left">&lt10</span>
+                                    <span class="slider_label_center">до 30</span>
+                                    <span class="slider_label_right">&gt60</span>
+                                </div>
                             </div>
                         </div>
 
@@ -203,7 +208,13 @@
                                 <p>Кількість фотографій <br> для кліпу, штук:</p>                    
                             </div>
                             <div class="col-xs-8 col-md-5">
-                                <div class="slider" id="inp_slider2"></div>
+                                <div class="slider" id="slider2"></div>
+                                <div class="slider_labels">
+                                    <span class="slider_label_left">&lt30</span>
+                                    <span class="slider_label_center">до 50</span>
+                                    <span class="slider_label_right">&gt70</span>
+                                </div>
+
                             </div>
                         </div>
 
@@ -212,7 +223,12 @@
                                 <p>Довжина відзнятих <br> відеоматеріалів, хвилин:</p>                    
                             </div>
                             <div class="col-xs-8 col-md-5">
-                                <div class="slider" id="inp_slider3"></div>
+                                <div class="slider" id="slider3"></div>
+                                <div class="slider_labels">
+                                    <span class="slider_label_left">1</span>
+                                    <span class="slider_label_center">3-5</span>
+                                    <span class="slider_label_right">7</span>
+                                </div>
                             </div>
                         </div>
 
@@ -221,7 +237,12 @@
                                 <p>Срок виконання <br> замовлення:</p>                    
                             </div>
                             <div class="col-xs-8 col-md-5">
-                                <div class="slider" id="inp_slider4"></div>
+                                <div class="slider" id="slider4"></div>
+                                <div class="slider_labels">
+                                    <span class="slider_label_left">3 днi</span>
+                                    <span class="slider_label_center">15 днiв</span>
+                                    <span class="slider_label_right">30 днiв</span>
+                                </div>                                
                             </div>
                         </div>
 
@@ -239,12 +260,12 @@
                                 ОРІЄНТОВНА ВАРТІСТЬ КЛІПУ:
                             </div>
                             <div class="col-xs-8 col-md-5">
-                                <h1>3000 грн</h1>
+                                <p id="price_amount">3000 грн</p>
                             </div>                            
                         </div>
                         <div class="row">
                             <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4">
-                                <button id="btn_calculator">Замовити та долучити матеріали</button>
+                                <button id="btn_calculator" onclick="return false;">Замовити та долучити матеріали</button>
                             </div>   
                         </div>
                             
