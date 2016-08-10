@@ -7,7 +7,7 @@ header{
     z-index: 1;
 }
 
-.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form{
+.navbar-inverse/*, .navbar-collapse, .navbar-inverse, .navbar-form*/{
     background-color: #e6e2e7;
     border: none;
 }
@@ -39,6 +39,6 @@ header li{
     color: #8f84aa;
 }
 
-@media(max-width: 991px){
+@media(max-width: 994px){
     .tel{display: none;}
 }
