@@ -27,12 +27,14 @@ header li{
     color: #333333;
 }
 
-img{
-    width: 100%;
-}
+/*.logo:before{
+    content: url(https://psv4.vk.me/c415321/u133419993/docs/c7fc9c9fcc85/logo.png?extra=QwHUWWf-VfOZ9Xa8SlzH0KwEgftial6GTloryOVy5R3k-XErLp3BOpR55HUPWjZ1kg4TiO5IUcEhGhsxvR8N6nhuQaKNfbSRFFLj5GQXQt6YwvtG2YhoDw);
+    display: inline-block;
+    width: 10px;
+}*/
 
 .tel{
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Play', sans-serif;
     color: #8f84aa;
 }
