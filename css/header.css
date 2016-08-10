@@ -33,7 +33,7 @@ header li{
     width: 10px;
 }*/
 
-.tel{
+.tel, .logo{
     font-size: 20px;
     font-family: 'Play', sans-serif;
     color: #8f84aa;
