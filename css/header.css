@@ -30,13 +30,19 @@ header li{
 /*.logo:before{
     content: url(https://psv4.vk.me/c415321/u133419993/docs/c7fc9c9fcc85/logo.png?extra=QwHUWWf-VfOZ9Xa8SlzH0KwEgftial6GTloryOVy5R3k-XErLp3BOpR55HUPWjZ1kg4TiO5IUcEhGhsxvR8N6nhuQaKNfbSRFFLj5GQXQt6YwvtG2YhoDw);
     display: inline-block;
-    width: 10px;
+    width: 10;
 }*/
 
 .tel, .logo{
     font-size: 20px;
     font-family: 'Play', sans-serif;
     color: #8f84aa;
+}
+header li:hover{
+    border-bottom: 2px solid #333;  
+}
+header li a:hover{
+    color: #333 !Important;
 }
 
 @media(max-width: 994px){
