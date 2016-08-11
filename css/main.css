@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Andika&subset=cyrillic,cyrillic-ext';
 /*=================================Anything===================*/
 
-.showreal, .portfolio, .price, .review {
+.portfolio, .price, .review {
     margin-bottom: 250px;
 }
 
