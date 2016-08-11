@@ -1,82 +1,64 @@
 
 /*========================review=========================*/
 
-
-.review .container_review {
-    background-color: #fefeec;
-    
+.carousel {
     max-width: 1140px;
-    text-align: center;
-    padding: 2% 2%;
-
-}
-
-.review .row {
-    background: #edf0f1;
-} 
-
-.review .block_review_center {
+    margin: auto;
+    background:   #fefeec;
+    max-width: 1140px;
     background-color: #fefeec;
-    padding: 0 10% 10% 10%;
-
+    padding: 5%;
 }
 
+.carousel-control.left, .carousel-control.right {
+  background: #edf0f1;
+  -webkit-filter: progid: none ;
+  filter: progid: none ;
+  -webkit-filter:none ;
+  filter:none;
+  background-image:none;
+  outline: 0;
+  opacity: 1;
+ }
 
-.review .block_arrow_left, .block_arrow_right, {
-    background-color: #edf0f1;
+.review .item p{
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+    padding: 10px 0;
+    text-shadow: none;
 }
 
-.block_review_center {
-
-}
-
-.review .col-wrap {
-    overflow: hidden; 
-}
-
-
-.review .glyphicon-chevron-left, .glyphicon-chevron-right {
-    font-size: 64px;
-    color: #938f9d;
-    position: absolute;
-    left: 50%;
-    margin-left: -20px; 
-    margin-top: 295px; /*this did not help((*/
-   
-}
-
-@media (max-width: 991px) {
-   .review .glyphicon-chevron-left, .glyphicon-chevron-right {
-    font-size: 48px;    
-   }
-}
-
-.review h2{
-    padding-top: 80px;
+.review .item .name_review {
     text-align: center;
     font-size: 24px;
-    color: #928ba2;
-}
+    color:  #928ba2;
+} 
 
-
-.review .glyphicon-th-large{   
+.review .item .glyphicon-th-large{   
     -webkit-transform: rotate(45deg);   
     -ms-transform: rotate(45deg);   
     transform: rotate(45deg);
     font-size: 14px;
     color: #928ba2;
-    padding: 32px 0;
+    padding: 10px 0;
+    display: block;
+    position: static;
+    text-shadow: none;
 }
 
-.review img{
+.review .item img{
     margin: auto;
+    width: 100%;
+    height: 790px;
+} 
+
+.review .item .photo_review {
     max-width: 218px;
     max-height: 218px;
 }
 
+  
 
-.review  p{
-    text-align: center;
-    font-size: 20px;
-    color: #333333;
-}
+
+
