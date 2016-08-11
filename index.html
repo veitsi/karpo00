@@ -5,19 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <!-- jquery-ui css -->
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css">
+    
+    
+    <!-- Bootstrap css-->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- VT added for slider -->
-    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.min.css">
-    <!-- Bootstrap -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link href="css/main.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/showreal.css" rel="stylesheet">
@@ -63,31 +58,28 @@
 <footer id="footer">
 </footer>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- jQuery js -->
+<script src="js/jquery.js"></script>
+
+<!-- jquery-ui js -->
+<script src="js/jquery-ui.min.js"></script>  
+<!-- <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script> What is faster from CDN or from folder?-->
+
+<!-- Bootstrap js-->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Veisti js -->
 <script src="https://apis.google.com/js/platform.js"></script>
 <script src="bower_components/webcomponentsjs/HTMLImports.min.js"></script>
 
 
+<!-- Scrolling Nav JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
-    <!--New Scripts-->
+<!-- Calculator js -->
+<script src="js/calculator.js"></script>
 
-<!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
-<!-- VT added for slider -->
-   <script src="js/jquery-ui.min.js"></script>  
-  <!-- <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script> What is faster from CDN or from folder?-->
-    
 <script>
     function insertSection(section,i) {
         document.querySelector("#" + section)
@@ -119,6 +111,5 @@
     });
 
 </script>
-<script src="js/calculator.js"></script>
 </body>
 </html>

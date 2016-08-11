@@ -8,29 +8,29 @@ function initSliders() {
     $("#slider1").slider({
         min: 0,
         max: 500,
-        value: 196,
-        step: 9.8
+        value: 250,
+        step: 250
     });
 
     $("#slider2").slider({
         min: 0,
         max: 500,
-        value: 196,
-        step: 12.19
+        value: 250,
+        step: 250
     });
 
     $("#slider3").slider({
         min: 0,
         max: 700,
-        value: 263,
-        step: 87.5
+        value: 350,
+        step: 250
     });
 
     $("#slider4").slider({
         min: 0,
         max: 1500,
-        value: 1500,
-        step: 53.57
+        value: 750,
+        step: 750
     });
 
     $('#slider1').on('slidestop', calculate);
@@ -45,7 +45,7 @@ function calculate() {
     var value1 = Math.round($("#slider1").slider("value"));
     var value2 = Math.round($("#slider2").slider("value"));
     var value3 = Math.round($("#slider3").slider("value"));
-    var value4 = Math.round($("#slider4").slider("value"));
+    var value4 = Math.abs ( Math.round($("#slider4").slider("value")) - 2000 ); 
 
     var range1 = $("#slider1").slider("option", "max") - $("#slider1").slider("option", "min");
     var range2 = $("#slider2").slider("option", "max") - $("#slider2").slider("option", "min");
