@@ -1,21 +1,20 @@
 <template id="tmpl-showreal">
-    <section class="big-background">
+    <div>
+        <!--<article>-->
+            <!--<div>-->
+                <!--&lt;!&ndash;<a href="#">&ndash;&gt;-->
+                <!--<h1>new!</h1>-->
+                <!--<p>відеомонтаж<br>ваших матеріалів</p>-->
+                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--</div>-->
+        <!--</article>-->
         <p class="gaslo">Ми створюємо яскраві відео ваших подій!</p>
-        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Bqwt61tchwc',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
-        
         <div class="pattern"></div>
-            <div class="big-background-container">
-                <article>
-                    <div>
-                        <h1>NEW!</h1>
-                        <a href="#pricedit">
-                            <p>видеомонтаж<br>ваших матеріалів</p>
-                        </a>
-                    </div>
-                    
-                </article>
-                
-            </div>
-    </section>
-    
+        <video autoplay="" loop="" class="fillWidth fadeIn animated"
+               poster="img/wedding.jpg" id="video-background">
+            <source src="video/showreel.mp4" type="video/mp4">
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="clear"></div>
+    </div>
 </template>
