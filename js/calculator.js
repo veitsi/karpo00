@@ -75,4 +75,7 @@ function calculate() {
     $('#slider2_value').text(value_natur2 + ' шт ' + value2);
     $('#slider3_value').text(value_natur3 + ' мин ' + value3);
     $('#slider4_value').text(value_natur4 + ' дн ' + Math.abs(value4 - 2000));
+
+
+    // $('.ui-slider-handle').css("background", "red"); Вот как можно стилизовать слайдер    
 }
