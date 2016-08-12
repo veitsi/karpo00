@@ -30,7 +30,7 @@ function initSliders() {
         min: 0,
         max: 1500,
         value: 750,
-        step: 750
+        step: 375
     });
 
     $('#slider1').on('slidestop', calculate);
