@@ -7,11 +7,28 @@
     /*background: #eeeff0; */
 }
 
+.price .container_service {
+    max-width: 1140px;
+    background: #e4e1eb;
+    margin: auto;
+    height: 970px;
+}
+
+.price .container_service_btn {
+   max-width: 1140px;
+   width: 100%;
+    /*background: #e4e1eb;*/
+    margin: auto;
+
+}
+
+
 .serv{
     width:25%;
 }
 .card-wrap{
     padding: 0 30px;
+    padding-top: 15px;
 }
 .card{
     float: left;
@@ -30,7 +47,7 @@
     padding: 20px;
 }
 .card-body ul{
-    padding: 20px;
+    /*padding: 20px;*/
     
 }
 .card .card-head h2{
@@ -141,7 +158,7 @@ h4{
     width: 100%;
     height: 120%;
     word-break: 100%;
-    background-color: #d9d7df;
+/*    background-color: #d9d7df;*/
     text-align: center;
 }
 .promo p{
@@ -305,3 +322,5 @@ h4{
 #edit_price .slider4_label5{
     left: 88%;
 }
+
+ 

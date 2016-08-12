@@ -1,6 +1,10 @@
+footer {
+	background:#efeeee;
+}
 
 footer .bar_below_contacts {
-    background: #fafaef;
+    background: #fafaef; 
+    max-width: 1140px;
 }
 
 footer .bar_below_contacts p {
@@ -17,3 +21,5 @@ footer .bar_below_contacts span {
 footer .icon{
     margin: auto;
 }
+
+

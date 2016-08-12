@@ -13,12 +13,13 @@
 
 .portfolio{
     width: 100%;
-    padding: 70px 0 50px 0;
+    /*padding: 70px 0 50px 0;*/
+    background: #efeeee; /* VT added */
 }
 
 .price{
     width: 100%;
-    padding: 70px 0 0 0; /* VT edited */
+    /*padding: 70px 0 0 0; */
     background: #d5d2da; /* VT added */    
 }
 
