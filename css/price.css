@@ -324,3 +324,16 @@ h4{
 }
 
  
+/*------------from Pasha*/
+div.order{
+    background: #fff;
+    padding-top: 150px!Important;
+    margin: 30px;
+}
+.order-head{
+    border-bottom: 1px solid black;
+}
+.inform{
+    width: 500px;
+    height: 50px;
+}
