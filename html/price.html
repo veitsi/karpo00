@@ -175,34 +175,25 @@
 
             <div id="edit_price" role="tabpanel" class="tab-pane fade" >
 
-                <form action="#">
+                 <form action="#">
                     <div class="container-fluid container-calculator">
-                        <div class="row">
+                        <div class="row"> 
                             <div class="col-xs-12">
-
-                                <h2>Калькулятор видеомонтажа</h2>
-                            </div>
-
                                 <h2>Калькулятор вiдеомонтажу</h2>
                             </div>   
-
                         </div>
                         <div class="row">
                             <div class="col-xs-4">
-                                <p>Назва кліпу:</p>
+                                <p>Назва кліпу:</p>                    
                             </div>
                             <div class="col-xs-8">
-                                <input type="text" id="inp_clip_name"placeholder="Напр. Юбілей групи ФП-06 10 років" >
+                                <input type="text" id="inp_clip_name"placeholder="Юбілей групи ФП-06 10 років" >
                             </div>
                         </div>
-
+                        
                         <div class="row">
                             <div class="col-xs-4">
-
-                                <p>Довжина відзнятих <br> відеоматеріалів, хвилин:</p>
-
                                 <p>Тривалiсть відзнятих <br> відеоматеріалів, хвилин:</p>                    
-
                             </div>
                             <div class="col-xs-8 col-md-5">
                                 <div class="slider" id="slider1"></div>
@@ -216,11 +207,7 @@
 
                         <div class="row">
                             <div class="col-xs-4">
-
-                                <p>Кількість фотографій <br> для кліпу, штук:</p>
-
                                 <p>Кількість фотографій <br> для кліпу, одиниць:</p>                    
-
                             </div>
                             <div class="col-xs-8 col-md-5">
                                 <div class="slider" id="slider2"></div>
@@ -235,11 +222,7 @@
 
                         <div class="row">
                             <div class="col-xs-4">
-
-                                <p>Довжина відзнятих <br> відеоматеріалів, хвилин:</p>
-
                                 <p>Тривалiсть клiпу, <br>хвилин:</p>                    
-
                             </div>
                             <div class="col-xs-8 col-md-5">
                                 <div class="slider" id="slider3"></div>
@@ -253,24 +236,17 @@
 
                         <div class="row">
                             <div class="col-xs-4">
-                                <p>Срок виконання <br> замовлення:</p>
+                                <p>Термiн виконання <br> замовлення:</p>                    
                             </div>
                             <div class="col-xs-8 col-md-5">
                                 <div class="slider" id="slider4"></div>
                                 <div class="slider_labels">
-
-                                    <span class="slider_label_left">3 днi</span>
-                                    <span class="slider_label_center">15 днiв</span>
-                                    <span class="slider_label_right">30 днiв</span>
-                                </div>
-
                                     <span class="slider4_label slider4_label1">3 днi</span>
                                     <span class="slider4_label slider4_label2">7 днiв</span>
                                     <span class="slider4_label slider4_label3">14 днiв</span>
                                     <span class="slider4_label slider4_label4">21 день</span>
                                     <span class="slider4_label slider4_label5">30 днiв</span>
                                 </div>                                
-
                             </div>
                         </div>
 
@@ -281,29 +257,33 @@
                             <div class="col-xs-8 col-md-5">
                                 <input type="checkbox" id="inp_checkbox">
                             </div>
-                        </div>
+                        </div>                            
                         <hr>
                         <div class="row">
                             <div class="col-xs-4">
-                                ОРІЄНТОВНА ВАРТІСТЬ КЛІПУ:
+                                <p id="price_label">        Орiєнтовна вартiсть клiпу:
+                                </p>
                             </div>
                             <div class="col-xs-8 col-md-5">
                                 <p id="price_amount">3000 грн</p>
-                            </div>
+                            </div>                            
                         </div>
                         <div class="row">
                             <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4">
                                 <button id="btn_calculator" onclick="return false;">Замовити та долучити матеріали</button>
-                            </div>
+                            </div>   
                         </div>
-
-
+                            
                     </div><!--  end of container  -->
-                </form>
+                </form>  
+
+                </div>
             </div>
         </div>
     </div>
-    </div>
+
+
+
 <!--MODAL ORDER-->
 
 
@@ -369,74 +349,6 @@
             </div>
         </div>
     </div>
-
-
-<!--MODAL ORDER-->
-
-
-    <div class="modal fade" id="order-opt" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-        <div class="modal-dialog" role="document">r
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body order">
-                    <form class="form">
-                        <div class="order-head">
-                            <h4>Ваше замовлення:</h4>
-                            <h3>Відеозйомка весілля - пакет "Оптимальний"</h3>
-                            <h5>Вартість: 7000 грн</h5>
-                        </div>
-                        <div class="order-body">
-                            <h4>Вкажіть, будь ласка Ваші дані:</h4>
-                            <span>Ваше ім'я:  </span><input type="text" placeholder="Марина"><br><br>
-                            <span>Телефон(и): </span><input type="text" placeholder="(093) 123 45 67"><br><br>
-                            <span>Вкажіть дату події: </span><br><br>
-                            <input type="date"><br><br>
-                            <span>Додаткова інформація: </span><br><br>
-                            <input type="text" class="inform">
-                        </div>
-                        <div class="order-footer"><br><br><br>
-                            <a href="#" class="btn grey"><span class="button">НАДІСЛАТИ ЗАПИТ</span></a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="order-mast" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-        <div class="modal-dialog" role="document">r
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body order">
-                    <form class="form">
-                        <div class="order-head">
-                            <h4>Ваше замовлення:</h4>
-                            <h3>Відеозйомка весілля - пакет "Майстерний"</h3>
-                            <h5>Вартість: 11 000 грн</h5>
-                        </div>
-                        <div class="order-body">
-                            <h4>Вкажіть, будь ласка Ваші дані:</h4>
-                            <span>Ваше ім'я:  </span><input type="text" placeholder="Марина"><br><br>
-                            <span>Телефон(и): </span><input type="text" placeholder="(093) 123 45 67"><br><br>
-                            <span>Вкажіть дату події: </span><br><br>
-                            <input type="date"><br><br>
-                            <span>Додаткова інформація: </span><br><br>
-                            <input type="text" class="inform">
-                        </div>
-                        <div class="order-footer"><br><br><br>
-                            <a href="#" class="btn grey"><span class="button">НАДІСЛАТИ ЗАПИТ</span></a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <div class="modal fade" id="order-lux" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
         <div class="modal-dialog" role="document">r
@@ -469,6 +381,8 @@
             </div>
         </div>
     </div>
+
+
 
 </template>
 
