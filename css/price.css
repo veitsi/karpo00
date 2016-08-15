@@ -7,11 +7,28 @@
     /*background: #eeeff0; */
 }
 
+.price .container_service {
+    max-width: 1140px;
+    background: #e4e1eb;
+    margin: auto;
+    height: 970px;
+}
+
+.price .container_service_btn {
+   max-width: 1140px;
+   width: 100%;
+    /*background: #e4e1eb;*/
+    margin: auto;
+
+}
+
+
 .serv{
     width:25%;
 }
 .card-wrap{
     padding: 0 30px;
+    padding-top: 15px;
 }
 .card{
     float: left;
@@ -30,7 +47,7 @@
     padding: 20px;
 }
 .card-body ul{
-    padding: 20px;
+    /*padding: 20px;*/
     
 }
 .card .card-head h2{
@@ -141,7 +158,7 @@ h4{
     width: 100%;
     height: 120%;
     word-break: 100%;
-    background-color: #d9d7df;
+/*    background-color: #d9d7df;*/
     text-align: center;
 }
 .promo p{
@@ -207,6 +224,10 @@ h4{
     font-family: arial, sans-serif;
 }
 
+#edit_price .container-calculator .row {
+    padding: 5px 0;
+}
+
 #edit_price .col-xs-4 {
     padding-left: 5%;
 }
@@ -239,7 +260,7 @@ h4{
 }
 
 #edit_price .slider {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 #edit_price #price_label {
@@ -277,6 +298,36 @@ h4{
     position: absolute;
     right: 0;
 }
+<<<<<<< HEAD
+=======
+
+#edit_price .slider4_label{
+    position: absolute;
+}
+
+#edit_price .slider4_label1{
+    left: 0;
+}
+
+#edit_price .slider4_label2{
+    left: 20%;
+}
+
+#edit_price .slider4_label3{
+    left: 43%;
+}
+
+#edit_price .slider4_label4{
+    left: 68%;
+}
+
+#edit_price .slider4_label5{
+    left: 88%;
+}
+
+ 
+/*------------from Pasha*/
+
 div.order{
     background: #fff;
     padding-top: 150px!Important;

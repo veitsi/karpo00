@@ -1,0 +1,13 @@
+.portfolio{
+    font-family: 'Andika', sans-serif;
+    font-size: 12pt;
+	background: #f0eeef;
+
+}
+
+.portfolio .container_video {
+    max-width: 1140px;  
+    background: #fefeec;
+    margin: auto;
+    padding-bottom: 15px;
+}
