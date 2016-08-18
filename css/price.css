@@ -11,7 +11,7 @@
     max-width: 1140px;
     background: #e4e1eb;
     margin: auto;
-    height: 970px;
+    height: 920px;
 }
 
 .price .container_service_btn {
@@ -83,11 +83,12 @@ h1, h2, h3, h4{
 .btn{
     text-align: center;
 }
-ul{
+.price ul{
     text-align: left;
     list-style-type: none;
+    padding: 20px;
 }
-ul img{
+.price ul img{
     width: 20%;
     height: auto;
     margin-right: 10px;
